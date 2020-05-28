@@ -1,5 +1,6 @@
-# OpenCV-Exemplos
-Exemplos sobre visão computacional usando a biblioteca OpenCV
+# Object Detection
+Reconhecimento de objetos utilizando OpenCV
+
 # Instruções
 ```
 pip install -r requirements.txt --no-deps --user
