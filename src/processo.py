@@ -29,6 +29,8 @@ for c in range(4):
     # cv2.Canny(<imagem>, <limiar 1>, <limiar2>) => Se x > limiar 2 = borda; se x < limiar 1 = não borda; Se  20 < x < 120 = depende
     bordas = cv2.Canny(img_bin1, 50, 150, apertureSize=5)
     cv2.imshow("bordas", bordas)
+
+    
     # Aplica a função goodFeaturesToTrack
     corners = cv2.goodFeaturesToTrack(bordas, 100, 0.5, 10)
     nome = ''
